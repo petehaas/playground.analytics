@@ -1,0 +1,10 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (ProcessRequest) {
+      accepted-inputs (input,$vivContext)
+      local-endpoint (processRequest.js)
+    }
+
+     
+  }
+}

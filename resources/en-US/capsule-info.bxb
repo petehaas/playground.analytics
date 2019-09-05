@@ -1,0 +1,13 @@
+capsule-info {
+  display-name (Analytics)
+  developer-name (Conversation Curve)
+  icon-asset (images/logo.png)
+  description (Save user interactions with your capsule)
+  website-url (https://example.com/)
+  terms-url (https://example.com/terms-of-use/)
+  search-keywords {
+    keyword (fun)
+    keyword (monitoring)
+  }
+  dispatch-name (Analytics)
+}

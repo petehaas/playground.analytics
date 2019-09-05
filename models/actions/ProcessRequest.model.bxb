@@ -1,0 +1,11 @@
+action (ProcessRequest) {
+  type(Calculation)
+  description (Call the analytics API for the user input and the response too)
+  collect {
+    input (input) {
+      type (UserInput)
+      min (Required) max (One)
+    }
+  }
+  output (Response)
+}
